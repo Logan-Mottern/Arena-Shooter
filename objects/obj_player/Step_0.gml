@@ -28,9 +28,10 @@ speed = min(10, speed)
 
 // Shooting
 
-if (mouse_check_button(mb_left))
+if (keyboard_check(vk_space)) && (cooldown < 1)
 {
-	instance_create_layer(x, y, layer, obj_projectile);
+	instance_create_layer(x, y, "ProjectileLayer", obj_projectile);
+	cooldown = 30;
 }
-
+cooldown = cooldown - 1;
 
