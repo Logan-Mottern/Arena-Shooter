@@ -31,7 +31,7 @@ speed = min(10, speed)
 if (keyboard_check(vk_space)) && (cooldown < 1)
 {
 	instance_create_layer(x, y, "ProjectileLayer", obj_projectile);
-	cooldown = 30;
+	cooldown = 3;
 }
 cooldown = cooldown - 1;
 
