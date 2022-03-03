@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":2,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":2,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":1,},
