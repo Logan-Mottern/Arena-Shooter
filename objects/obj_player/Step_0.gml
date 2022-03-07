@@ -23,7 +23,7 @@ global.planeAngle = image_angle
 direction = image_angle;
 point_direction = image_angle;
 
-speed = max(5, speed)
+speed = max(2, speed)
 speed = min(10, speed)
 
 // Shooting

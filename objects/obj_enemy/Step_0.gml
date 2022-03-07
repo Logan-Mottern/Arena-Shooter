@@ -3,7 +3,10 @@
 
 if (instance_exists(obj_player))
 {
-	move_towards_point(obj_player.x, obj_player.y, enemySpeed);
+	if (point_distance(obj_player.x,obj_player.y,x,y) < 960)
+	{
+		move_towards_point(obj_player.x, obj_player.y, enemySpeed);
+	}
 }
 
 image_angle = direction + 270;
