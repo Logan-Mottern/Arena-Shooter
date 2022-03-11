@@ -11,4 +11,8 @@ if (instance_exists(obj_player))
 
 image_angle = direction + 270;
 	
-if (healthPoints) <= 0 instance_destroy();
+if (healthPoints) <= 0
+{
+	with(obj_score) activeScore = activeScore + 5
+	instance_destroy();
+}
