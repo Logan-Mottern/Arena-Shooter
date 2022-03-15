@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"aud_bird_die","path":"sounds/aud_bird_die/aud_bird_die.yy",},"order":0,},
     {"id":{"name":"obj_enemy_organic1","path":"objects/obj_enemy_organic1/obj_enemy_organic1.yy",},"order":2,},
+    {"id":{"name":"spr_controls","path":"sprites/spr_controls/spr_controls.yy",},"order":7,},
     {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},"order":2,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":3,},
     {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},"order":6,},
