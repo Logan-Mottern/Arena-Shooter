@@ -1,4 +1,8 @@
 image_alpha = 0;
 
-x = room_width / 2;
-y = room_height / 2;
+x = 0
+y = 50
+
+
+image_yscale =6;
+image_xscale =6;
