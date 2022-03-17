@@ -35,3 +35,9 @@ if (keyboard_check(vk_space)) && (cooldown < 1)
 }
 cooldown = cooldown - 1;
 
+// Game End
+
+if (keyboard_check(ord("X"))) && instance_exists(obj_player) && !instance_exists(obj_enemy_organic1) && !instance_exists(obj_gameEnd)
+{
+	global.gameEndReady = true;
+}
