@@ -48,5 +48,5 @@ if instance_exists(obj_player) && !instance_exists(obj_enemy_organic1) && !insta
 {
 	instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd_button_prompt)
 	global.gameEndReady = true;
-	instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd);
+	if (keyboard_check(ord("X"))) instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd);
 }
