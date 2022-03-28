@@ -8,5 +8,5 @@ var cw = camera_get_view_width(view_camera[0]);
 
 draw_set_font(fnt_gameEnd);
 draw_set_colour(c_red);
-draw_text(cx + (cw / 2), cy + 100, string(eaa));
+draw_text(cx , cy + 1000, string(eaa));
 
