@@ -27,6 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"70e98009-09ef-4501-8148-7177e0131463","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"70e98009-09ef-4501-8148-7177e0131463","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"LayerId":{"name":"642ea159-d889-4074-918b-cff3dc738892","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_gameEnd","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","name":"70e98009-09ef-4501-8148-7177e0131463","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e71fce2f-be4c-4874-9bd0-aa0723c9278d","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e71fce2f-be4c-4874-9bd0-aa0723c9278d","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"LayerId":{"name":"642ea159-d889-4074-918b-cff3dc738892","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gameEnd","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","name":"e71fce2f-be4c-4874-9bd0-aa0723c9278d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gameEnd","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d9a92769-8788-4589-8072-038a6acdd39f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70e98009-09ef-4501-8148-7177e0131463","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e9a7e6be-4cb5-434c-b1b3-b21f23352f13","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e71fce2f-be4c-4874-9bd0-aa0723c9278d","path":"sprites/spr_gameEnd/spr_gameEnd.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

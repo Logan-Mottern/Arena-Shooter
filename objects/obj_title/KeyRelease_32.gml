@@ -1,1 +1,1 @@
-room_goto(rm_square_ocean);
+room_goto(rm_lvl_1);
