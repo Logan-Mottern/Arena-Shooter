@@ -7,5 +7,5 @@ var cw = camera_get_view_width(view_camera[0]);
 //Draw Score
 
 draw_set_font(fnt_score);
-draw_set_colour(c_white);
+draw_set_colour(c_red);
 draw_text(cx + (cw / 2), cy + 25, string(activeScore));
