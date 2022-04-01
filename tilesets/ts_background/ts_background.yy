@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_normal",
-    "path": "sprites/spr_normal/spr_normal.yy",
+    "name": "spr_details",
+    "path": "sprites/spr_details/spr_details.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
