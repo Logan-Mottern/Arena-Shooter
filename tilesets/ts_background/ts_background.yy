@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_background",
-    "path": "sprites/spr_background/spr_background.yy",
+    "name": "spr_normal",
+    "path": "sprites/spr_normal/spr_normal.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
