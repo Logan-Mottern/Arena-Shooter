@@ -180,7 +180,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ts_background",
+  "name": "ts_details",
   "tags": [],
   "resourceType": "GMTileSet",
 }
