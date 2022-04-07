@@ -1,11 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 if (instance_exists(obj_player))
 {
 	if (point_distance(obj_player.x,obj_player.y,x,y) < 960)
 	{
-		move_towards_point(obj_player.x, obj_player.y, enemySpeed);
+		//move_towards_point(obj_player.x, obj_player.y, enemySpeed);
+		mp_potential_step(obj_player.x, obj_player.y, enemySpeed, true);
 	}
 }
 
@@ -18,3 +17,7 @@ if (healthPoints) <= 0
 	audio_play_sound(aud_bird_die, 0, false);
 	instance_destroy();
 }
+
+//Debug
+
+draw_line_color(obj_player.x,obj_player.y,x,y,4,c_red);
