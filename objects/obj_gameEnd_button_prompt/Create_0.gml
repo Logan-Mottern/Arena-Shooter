@@ -1,1 +1,2 @@
-eaa = "Press ''X'' to Engage Emergency Avian Annilator"
+eaa = "Press ''Space'' to Engage Emergency Avian Annilator"
+

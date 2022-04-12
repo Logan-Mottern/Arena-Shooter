@@ -3,3 +3,11 @@
 
 global.gameEndReady = false;
 cooldown = 0;
+cooldownShotgun = 0;
+weapon = 0;
+friendlyHealth = 3;
+friendlyHealthMax = 3
+puffTimer = 0
+
+image_xscale = .9
+image_yscale = .9

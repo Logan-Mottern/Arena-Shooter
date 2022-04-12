@@ -27,6 +27,21 @@
     {"compositeImage":{"FrameId":{"name":"1cd743aa-f9a0-4098-ae16-56930978ca85","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1cd743aa-f9a0-4098-ae16-56930978ca85","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"1cd743aa-f9a0-4098-ae16-56930978ca85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"473d0f4f-af33-42ff-a60b-b8d00ca4508a","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"473d0f4f-af33-42ff-a60b-b8d00ca4508a","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"473d0f4f-af33-42ff-a60b-b8d00ca4508a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e673f47a-64ea-4d91-bc6b-b793605f23fc","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e673f47a-64ea-4d91-bc6b-b793605f23fc","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"e673f47a-64ea-4d91-bc6b-b793605f23fc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"77157801-01a0-464c-86ab-2ac04fda7a0e","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"77157801-01a0-464c-86ab-2ac04fda7a0e","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"77157801-01a0-464c-86ab-2ac04fda7a0e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"278b2c9a-df7a-4438-989c-ef69d6af3fb9","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"278b2c9a-df7a-4438-989c-ef69d6af3fb9","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"278b2c9a-df7a-4438-989c-ef69d6af3fb9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"18b4515f-c6a8-47a2-ba64-d0200e0f14b0","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"18b4515f-c6a8-47a2-ba64-d0200e0f14b0","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"LayerId":{"name":"9e9535ef-50ae-41e0-8908-5c70d06c72c7","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","name":"18b4515f-c6a8-47a2-ba64-d0200e0f14b0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},
@@ -36,12 +51,17 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"54091464-f1b9-407d-8dc1-ef56c2ac3785","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cd743aa-f9a0-4098-ae16-56930978ca85","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fee66796-5f51-4226-b85b-b30351fc4db2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"473d0f4f-af33-42ff-a60b-b8d00ca4508a","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"591f69a1-b7fc-423e-90cd-9f1b7fab7082","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e673f47a-64ea-4d91-bc6b-b793605f23fc","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c275e80d-25c5-41fc-9ab7-4cbb8e799d34","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77157801-01a0-464c-86ab-2ac04fda7a0e","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"22190c60-d34c-40a7-bca7-408cee417446","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"278b2c9a-df7a-4438-989c-ef69d6af3fb9","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a36e449d-6cf7-44ad-8905-f5812834fb81","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18b4515f-c6a8-47a2-ba64-d0200e0f14b0","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_aircraft_1","path":"sprites/spr_aircraft_1/spr_aircraft_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_aircraft_1",
     "tags": [],
     "resourceType": "GMSequence",

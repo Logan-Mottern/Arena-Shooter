@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 1,
+  "gridY": 15,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b3605954-5532-4c59-b6c4-2cebff7c762f","path":"sprites/spr_controls/spr_controls.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b3605954-5532-4c59-b6c4-2cebff7c762f","path":"sprites/spr_controls/spr_controls.yy",},"LayerId":{"name":"56c9fd2e-3b5a-497d-9d77-7d5738a9aa92","path":"sprites/spr_controls/spr_controls.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_controls","path":"sprites/spr_controls/spr_controls.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_controls",
     "tags": [],
     "resourceType": "GMSequence",

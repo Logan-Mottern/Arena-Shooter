@@ -1,0 +1,1 @@
+cooldownHP = 0

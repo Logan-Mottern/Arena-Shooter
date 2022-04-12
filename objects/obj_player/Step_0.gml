@@ -35,12 +35,30 @@ if room != rm_testing
 
 // Shooting
 
-if (keyboard_check(vk_space)) && (cooldown < 1)
+if (mouse_check_button(mb_left)) && (cooldown < 1) && (weapon = 0)
 {
 	instance_create_layer(x, y, "ProjectileLayer", obj_projectile);
-	cooldown = 3;
+	cooldown = 8;
 }
 cooldown = cooldown - 1;
+
+// Shotgun
+
+if (mouse_check_button(mb_left)) && (cooldownShotgun < 1) && (weapon = 1) && (global.shotgunActive = true)
+{
+	instance_create_layer(x, y, "ProjectileLayer", obj_shotgun);
+	instance_create_layer(x, y, "ProjectileLayer", obj_shotgun);
+	instance_create_layer(x, y, "ProjectileLayer", obj_shotgun);
+	cooldownShotgun = 30;
+}
+cooldownShotgun = cooldownShotgun - 1;
+
+// Weapon Swap
+
+if mouse_wheel_down() weapon = weapon - 1;
+if mouse_wheel_up() weapon = weapon + 1;
+
+weapon = clamp(weapon,0,global.numberWeapon);
 
 // Game End
 
@@ -48,5 +66,29 @@ if instance_exists(obj_player) && !instance_exists(obj_enemy_organic1) && !insta
 {
 	instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd_button_prompt)
 	global.gameEndReady = true;
-	if (keyboard_check(ord("X"))) instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd);
+	if (keyboard_check(vk_space)) instance_create_layer(x, y, "ProjectileLayer", obj_gameEnd);
 }
+
+// Puff Maker
+
+if (puffTimer = 0) && (friendlyHealth < friendlyHealthMax)
+{
+	instance_create_layer(x, y, "Instances", obj_puff);
+	puffTimer = 15 * (friendlyHealth);
+}
+
+// Health
+
+if friendlyHealth < friendlyHealthMax
+{
+	puffTimer = puffTimer - 1
+}
+
+if friendlyHealth < 1
+{
+	room_restart();
+}
+
+// Upgrade
+
+if (room = rm_brk_1) object_set_sprite(obj_player, spr_player_turretUpgrade);

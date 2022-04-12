@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-healthPoints = 5;
+healthPoints = 3;
 
-enemySpeed = 1.5;
+enemySpeed = 1;
